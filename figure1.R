@@ -73,3 +73,5 @@ finalplot = ggdraw() +
     height = 0.15
   )
 finalplot
+ggsave('Figure1.png', finalplot, dpi = 300, width = 8.5, height = 5, units = 'in', bg = "white")
+
