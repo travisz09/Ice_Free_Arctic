@@ -18,6 +18,7 @@ theme_set(
     legend.background = element_rect(fill="white", linewidth=1, linetype="solid", color="black"),
     panel.border = element_blank(),
     panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
     axis.line = element_line(color = "black")
   )
 )
